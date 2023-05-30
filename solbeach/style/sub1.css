@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
+
+@font-face {
+    font-family: "made";
+    src: url(../font/webfont/made_Coachella_Regular.woff) format("woff"),
+    url(../font/webfont/made_Coachella_Regular.ttf) format("truetype");
+}
+#contents .title{text-align: center;margin-top:32px; line-height:1;}
+#contents .title h2{font-family:"made"; font-size:22px; margin:0; }
+#contents .title span{line-height: 1;margin-bottom:30px; margin-top:10px;}
+#contents .sub_visual{width:100%; margin:0 auto;}
+
+#contents .season{text-align: center; margin:20px 0 32px;}
+#contents .season h3{display:inline-block; font-size:18px; font-weight: 600;}
+#contents .season h3:first-child::after{content:"";display:inline-block; width:1px; height:18px; background:#333;margin:0 5px 3px; vertical-align: middle; }
+
+#contents .main_tit{width:208px; margin:0 auto; position:relative;  }
+#contents .main_tit::before{content:""; display:block; width:250px; height:1px; background:#f0f0f0;position:absolute;left:-25px; top:-5px;  } /*질문 */
+
+
+#contents .sun img, #contents .foot img{display:block;width:337px; margin:0 auto; }
+#contents .sub_tit{width:70%; text-align:center; margin:26px auto 58px; line-height: 1.5; position:relative; }
+
+#contents .sub_tit::after{margin:0 auto;content:""; display:block; width:280px; height:1px; background:#f0f0f0; position:absolute; left:-5px; bottom:-23px;}
+
+.info{text-align: center;}
+.info .big{width:95px; margin:0 auto;}
+.info .big h4{background:url(../images/sub1/Shellfish_b.png)no-repeat left ;}
+
+.info .info_sub{width:290px; font-size:14px;margin:0 auto;  line-height: 1.5; text-align: left;}
+
+.info .small span::before{content:""; display:inline-block;width:10px; height:10px;  background: url(../images/sub1/Shellfish_s.png)no-repeat}
+
+
+.reserve_btn{width:375px; height:70px; text-align: center; background:#012A7C; border-radius: 5px; color:#fff; 
+line-height:70px; font-size:20px; font-weight: 700; margin:34px auto; cursor: pointer;}

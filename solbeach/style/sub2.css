@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap');
+
+@font-face {
+    font-family: "made";
+    src: url(../font/webfont/made_Coachella_Regular.woff) format("woff"),
+    url(../font/webfont/made_Coachella_Regular.ttf) format("truetype");
+}
+#contents .title{text-align: center;margin-top:32px; line-height:1;}
+#contents .title h2{font-family:"made"; font-size:22px; margin:0; }
+#contents .title span{line-height: 1;margin-bottom:30px; margin-top:10px;}
+#contents .sub_visual{width:100%; margin:0 auto;}
+
+#contents .tit{text-align: center; margin-top:70px; margin-right:5px; font-size:20px; position:relative;margin-bottom:60px;}
+#contents .tit span::before{content:""; display:inline-block; width:21px; height:21px; background: url(../images/sub2/atention.png) no-repeat center; vertical-align: middle; margin-right:5px;}
+#contents .tit span::after{content:""; width:100px; height:1px; background:#dadada; display:block; position:absolute; bottom:-15px; left:50%; margin-left:-40px; }
+
+#contents .season .season_top{text-align: center; line-height: 0.5; font-size:16px;position:relative; z-index: 100;}
+#contents .season .season_top>span{font-size:14px; color:#6d6d6d;}
+#contents .season .season_top>span::after{content:""; width:130px; height:1px; background:#dadada; display:block; position:absolute; bottom:-15px; left:50%; margin-left:-65px;}  
+
+#contents .season{background:rgba(234,210,197,0.3);width:90%;  margin:0 auto; padding:20px; box-sizing:border-box ;}
+#contents .season .season_wrap{background:#fff; border-radius:50px; width:100%;   padding:10px 0 ; box-sizing: border-box;}
+#contents .season .season_bottom{margin:0 auto; font-size:14px; margin-top:50px;  text-align: left; margin-left:30px; position:relative; }
+#contents .season .season_bottom>span{margin-bottom: 35px;}
+
+#contents .season .season_bottom>span::before{content:""; display:inline-block; width:21px; height:21px; background: url(../images/sub2/check.png) no-repeat center; vertical-align: middle;}
+
+#contents .season2 .season_top2{text-align: center; line-height: 0.5; font-size:16px;position:relative; z-index: 100;}
+#contents .season2 .season_top2>span{font-size:14px; color:#6d6d6d;}
+#contents .season2 .season_top2>span::after{content:""; width:130px; height:1px; background:#dadada; display:block; position:absolute; bottom:-15px; left:50%; margin-left:-65px;} 
+#contents .season2{background:rgba(234,210,197,0.3);width:90%;  margin:0 auto; padding:20px 0;box-sizing: border-box;}
+#contents .people{margin:50px auto 0; display:flex; width:75%;justify-content: space-between; text-align: center; background:#fff; border-radius: 50px; padding:15px 30px;}
+
+#contents .pe span{display:inline-block; text-align: center; margin-bottom:30px; margin-right:10px;}
+#contents .small span:first-child{margin-bottom:27px;}
+#contents .pe span:last-child{margin-bottom:0;}
+#contents .season2 .sub_season2{font-size:14px; color:#6d6d6d; margin:30px auto 20px; width:90%; padding-left:30px; box-sizing: border-box;}
+
+#contents .people .big{position:relative;}
+#contents .people .big span:first-child::before{content:"";display:inline-block; width:25px; height:17px;  background: url(../images/sub2/purple_b.png) no-repeat center; vertical-align: middle;}
+#contents .people .small span:first-child::before{content:"";display:inline-block; width:17px; height:25px; background:url(../images/sub2/purple_s.png) no-repeat center; vertical-align: middle;}
+
+#contents .people .big span:nth-child(2)::after{content:""; width:1px; height:80px; background:#dadada; display:inline-block; position:absolute; top:-2px;right:2px;}
+
+#contents .join_join{width:90%; margin:0 auto; padding-left:25px; box-sizing: border-box;}
+#contents .join_join:last-child{width: 90%;}
+#contents .join_join .tit_icon {background:rgba(234,210,197,0.3);width:210px; padding:20px 40px; border-radius: 10px; display:inline-block; position:relative; margin-bottom:30px; }
+#contents .join_join .tit_icon:last-child{width:240px; padding:20px 25px;}
+#contents .join_join .tit_icon .icon_e{font-size:14px; color:#6d6d6d; margin-left:10px;}
+#contents .join_join .icon_c::before{content:"";display:inline-block; width:20px; height:20px; background-repeat: no-repeat; background-position: center; vertical-align: middle; margin-right:15px;}
+#contents .join_join .c1::before{background-image: url(../images/sub2/icon_ticket.png);}
+#contents .join_join .c2::before{background-image: url(../images/sub2/icon_gate.png);}
+#contents .join_join .c3::before{background-image: url(../images/sub2/icon_charge.png);}
+#contents .join_join .c4::before{background-image: url(../images/sub2/icon_shoe.png);}
+#contents .join_join .c5::before{background-image: url(../images/sub2/icon_dreessing.png);}
+#contents .join_join .c6::before{background-image: url(../images/sub2/icon_play.png);}
+#contents .join_join .tit_icon .icon_c::after{content:"";display:block; width:15px; height:15px; background:url(../images/sub2/Down.png) no-repeat center; margin:5px auto; position:absolute; bottom:-25px; left:50%; }
+#contents .join_join .ocean::after{background:none;}
+
+#contents .join_txt{font-size:14px; color:#6d6d6d; width:90%; margin:0 auto 15px; padding:0 15px; }
+

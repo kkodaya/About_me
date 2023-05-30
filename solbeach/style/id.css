@@ -1,0 +1,4 @@
+.form_area .id{width:84%;margin:52px auto 0;}
+.form_area .id label{font-size:16px; color:#333; display:block; margin-bottom:13px;}
+.form_area .id input{width:60%; height:42px; background:#F4F4F4; margin-right:9px; padding:16px 9px; box-sizing: border-box;}
+.form_area .id span{color:#012a7c; border:1px solid #012A7C; padding:8px 15px 9px; box-sizing: border-box; }

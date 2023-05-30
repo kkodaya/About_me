@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>솔비치호텔</title>
+    <link rel="stylesheet" href="./style/common.css" type="text/css">
+    <link rel="stylesheet" href="./style/main.css" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <div class="logo">
+                <h1>
+                    <span class="bl">솔비치호텔</span>
+                     <a href="#">
+                         <img src="./images/header_logo.svg" alt="로고">
+                     </a>
+                </h1>
+            </div><!---->
+            <div class="mypage">
+                <a href="#">
+                     <img src="./images/icon_mypage.png" alt="마이페이지">
+                 </a>
+            </div>
+           
+            <div class="menu">
+                <a href="#">
+                     <img src="./images/icon_menu.png" alt="메뉴">
+                 </a>
+            </div>
+        </div>  
+          <nav class="nav">
+            <div class="header_inner">
+                <div class="logo">
+                    <h1>
+                        <span class="bl">솔비치호텔</span>
+                         <a href="#">
+                             <img src="./images/header_logo.svg" alt="로고">
+                         </a>
+                    </h1>
+                </div><!---->
+                <div class="mypage">
+                    <a href="#">
+                         <img src="./images/icon_mypage.png" alt="마이페이지">
+                     </a>
+                </div>
+               
+                <div class="btn_close">
+                    <a href="#">
+                        <img src="./images/icon_cancle.png" alt="취소">
+                     </a>
+                </div>
+            </div>  
+              <div class="gnb">
+              <ul class="gnb_list">
+                <li>
+                    <div class="gnb_tit">
+                        <strong>리조트안내 *</strong>
+                        <a href="#" class="btn_open">
+                        <span class="bl">서브메뉴열기</span>
+                        <span class="open"></span>
+                        <span class="open"></span>
+                        </a>
+                    </div>  
+                    <ul class="lnb">
+                        <li><a href="#">쏠비치 삼척소개</a></li>
+                        <li><a href="#">쏠비치 삼척 홍보동영상</a></li>
+                        <li><a href="#">산토리니 이야기</a></li>
+                        <li><a href="#">Art at Solbeach</a></li>
+                        <li><a href="./sub1.html">프라이빗 비치 *</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="gnb_tit">
+                    <strong>객실안내</strong>
+                    <a href="#" class="btn_open">
+                    <span class="bl">서브메뉴열기</span>
+                    <span class="open"></span>
+                    <span class="open"></span>
+                    </a>
+                     </div>
+                    <ul class="lnb">
+                        <li><a href="#">객실 이용안내</a></li>
+                        <li><a href="#">리조트</a></li>
+                        <li><a href="#">호텔</a></li>
+                        <li><a href="#">노블리안</a></li>
+                     
+                    </ul>
+                </li>
+                <li>
+                    <div class="gnb_tit">
+                    <strong>다이닝&카페</strong>
+                    <a href="#" class="btn_open">
+                    <span class="bl">서브메뉴열기</span>
+                    <span class="open"></span>
+                    <span class="open"></span>
+                    </a>
+                     </div>
+                    <ul class="lnb">
+                        <li><a href="#">소개영상</a></li>
+                        <li><a href="#">셰프스 키친</a></li>
+                        <li><a href="#">뜰,in the GRILL</a></li>
+                        <li><a href="#">해파랑</a></li>
+                        <li><a href="#">산토리니 가든</a></li>
+                        <li><a href="#">카페</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="gnb_tit">
+                    <strong>부대시설 *</strong>
+                    <a href="#" class="btn_open">
+                    <span class="bl">서브메뉴열기</span>
+                    <span class="open"></span>
+                    <span class="open"></span>
+                    </a>
+                    </div>
+                    <ul class="lnb">
+                        <li><a href="./sub2.html">오션플레이 *</a></li>
+                        <li><a href="#">편의시설</a></li>
+                        <li><a href="#">유희시설</a></li>
+                        </ul>
+                 
+                </li>
+                <li>
+                    <div class="gnb_tit">
+                    <strong>이벤트</strong>
+                    <a href="#" class="btn_open">
+                    <span> </span>
+                    <span class="bl">서브메뉴열기</span>
+                    <span class="open"></span>
+                    <span class="open"></span>
+                      </a>    
+                      <ul class="lnb"></ul>
+                    </div>
+                    </li>
+                <li> 
+                    <div class="gnb_tit">
+                    <strong>웨딩</strong>
+                    <a href="#" class="btn_open">
+                    <span class="bl">서브메뉴열기</span>
+                    <span class="open"></span>
+                    <span class="open"></span>
+                     </a>
+                    </div>
+                    <ul class="lnb">
+                        <li><a href="#">솔비치 삼척 웨딩소개</a></li>
+                        <li><a href="#">연회장</a></li>
+                        <li><a href="#">데스티네이션 웨딩</a></li>
+                    </ul>
+                 </li>
+              </ul>
+            </div>
+              <div class="social">
+                  <div class="social_wrap">
+                  
+                    <a href="#"><span class="fb"></span></a>
+
+                  
+                    <a href="#"><span class="is"></span></a>
+                 
+                
+                    <a href="#"><span class="ka"></span></a>
+                  
+                </div>
+              </div>
+          </nav>
+    </header>
+    <div id="visual">
+        <div class="visual_inner">
+            
+            <div class="video_area">
+            <video autoplay muted loop >
+                <source src="./images/45576143824672c988cf8f314110f955.mp4">
+            </video>
+            </div> <!--video_area end--> 
+
+            <strong class="form_logo">SOL BEACH</strong>
+              <div class="form_area">
+               
+               
+                 <form>
+                    <fieldset>
+                        <legend class="bl">예약하기</legend>
+                    <div class="form_row check">
+                        <div class="check_area">
+                             <div class="label"><label for="ch_in">체크인</label></div>
+                             <input type="text" id="ch_in" placeholder="yyyy/mm/dd">
+                        </div>
+                        <div class="check_area">
+                            <div class="label"><label for="ch_out">체크아웃</label></div>
+                            <input type="text" id="ch_out" placeholder="yyyy/mm/dd">
+                        </div>
+                    </div>  
+                    <div class="form_row people">
+                        <div class="ac">
+                        <label for="man" class="bl">성인</label>  
+                        <select name="man" id="man">
+                            <option value="man">성인1</option>
+                            <option value="man">성인2</option>
+                            <option value="man">성인3</option>
+                            <option value="man">성인4</option>
+                            <option value="man">성인5</option>
+                            <option value="man">성인6</option>
+                         </select>
+                        </div>
+                        <div class="ac">
+                            <label for="child" class="bl">아동</label> 
+                            <select name="child" id="child">
+                                <option value="child">아동1</option>
+                                <option value="child">아동2</option>
+                                <option value="child">아동3</option>
+                                <option value="child">아동4</option>
+                                <option value="child">아동5</option>
+                                <option value="child">아동6</option>
+                            </select>
+                        </div>
+                      
+                     </div>
+                     <div class="visual_search">
+                        <button type="button" class="btn_form">
+                            객실찾기
+                        </button>
+                     </div>
+                </fieldset>
+                </form>  
+
+            </div> <!--form_area end-->
+        </div>
+        
+    </div>
+    <main id="contents">
+        <div class="inner">
+            <section class="sec sec1">
+            <div class="sec_tit">
+                <h2>객실</h2>
+                <span>Room</span>
+            </div>
+            <div class="tap_menu">
+            <div class="room_tab">
+                <ul class="room_wrap">
+                    <li><a href="#" class="famliy"> 패밀리룸</a></li>
+                    <li><a href="#">스위트룸</a></li>
+                    <li><a href="#"> 실버스위트룸</a></li>
+                    <li><a href="#"> 골드스위트룸</a></li>
+                    
+                 
+                </ul>
+            </div>
+           <div class="room_img_tab swiper mySwiper">
+                <ul class="room_img_wrap swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_1.png" alt="#"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_2.png" alt="#"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_3.png" alt="#"></a></li>
+                </ul>
+                <div class="room_txt">
+                    <span> 최신 설비와 세련된 서비스를 통해 객실에서 
+                         안락한 휴식을 취하실 수 있도록 모든 편의를 제공하고 있습니다.</span>
+                  </div>
+           </div>
+           <div class="room_img_tab swiper mySwiper">
+            <ul class="room_img_wrap swiper-wrapper">
+                <li class="swiper-slide"><a href="#"><img src="./images/main/contents_2_1.jpg" alt="#"></a></li>
+                <li class="swiper-slide"><a href="#"><img src="./images/main/contents_2_2.jpg" alt="#"></a></li>
+                <li class="swiper-slide"><a href="#"><img src="./images/main/contents_2_3.jpg" alt="#"></a></li>
+            </ul>
+            <div class="room_txt">
+                <span>
+                    파란 동해바다의 시원함과 수려한 경관을 느낄 수 있고, 안락하게 묵으실 수 있도록 모든 편의를 제공하고 있습니다.
+                    </span>
+              </div>
+            </div>
+            <div class="room_img_tab swiper mySwiper">
+                <ul class="room_img_wrap swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_3_1.jpg" alt="#"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_3_2.jpg" alt="#"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_3_3.png" alt="#"></a></li>
+                </ul>
+                <div class="room_txt">
+                    <span> 
+                        아늑한 침실과 자연채광이 완벽한 조화를 갖춰,여행으로 지친 고객 여러분에게 편안한 밤을 제공해드릴 수 있습니다.
+
+                    </span>
+                  </div>
+           </div>
+            <div class="room_img_tab swiper mySwiper">
+                <ul class="room_img_wrap swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_4_1.jpg" alt="#"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_4_2.jpg" alt="#"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./images/main/contents_4_3.jpg" alt="#"></a></li>
+                </ul>
+                <div class="room_txt">
+                    <span>
+                        
+시원하고 깨끗한 동해바다가 한눈에 바라다 보이는 전망을 가지고, 테라스에서 꿈 같은 휴식을 취할 수 있는 특징을 지니고 있으며,
+사랑하는 연인과 황홀한 분위기에 흠뻑 취할 수 있는 룸 입니다
+                    </span>
+                  </div>
+            </div>
+            
+         </div>
+          <div class="see">
+           <a href="#">자세히보기</a>
+          </div>
+        </section> <!--section1 end-->
+
+        <section class="sec sec2">
+            <div class="inner">
+                <div class="sec_tit">
+                    <h2>이벤트</h2>
+                    <span>Event&Promotion</span>
+                </div>
+                <div class="event event1">
+                    <div class="event_img"><img src="./images/main/event_img1.png" alt="service for you"></div>
+                    <div class="event_txt event1_txt">
+                    <h3>Service for you</h3>
+                    <p>고객의 마음을 읽고 , 쉼과 휴식을 함께 하기 위해 
+                        Service for you를 진행하고 있습니다.</p>
+                        <div class="btn_event">
+                           <a href="#"><span>자세히보기</span></a>
+                        </div>  
+                    </div>
+                     
+                </div>
+                <div class="event event2">
+                    <div class="event_img"><img src="./images/main/event_img2.png" alt="사우나 이용 혜택"></div>
+                    <div class="event_txt event2_txt">
+                    <h3>사우나 이용 혜택</h3>
+                    <p>섬세이 에어샤워와 함께 소노호텔앤리조트에서 
+                        누리는 특별 서비스 with 섬세이 에어샤워</p>
+                        <div class="btn_event">
+                            <a href="#"><span>자세히보기</span></a>
+                        </div>     
+                    </div>
+                     
+                </div>
+
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="inner">
+            <div class="footer_info">               
+                 <a href="#">
+                     개인정보처리방침
+                 </a>
+              
+                  <a href="#">
+                    영상정보처리기기운영관리방침
+                  </a>
+          
+                  <a href="#">
+                     이용약관
+                 </a>                    
+            </div>
+            <div class="copy">
+                <p>Copyright &copy; SONO INTERNATIONAL Co. Ltd. All Rights Reserved.</p>
+            </div>
+            <div class="adress">
+                (주)소노인터내셔널  강원도 홍천군 서면 한치골길 262 
+                소노예약센터 1588-4888   운영시간 09:00 ~18:00 ( 연중무휴 ) 
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    
+    
+    <!--폼 달력--><script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1.5,
+      spaceBetween: 10,
+  
+       
+    
+    });
+   
+  </script>
+  <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script> -->
+
+    <!-- Initialize Swiper -->
+    
+</body>
+</html>
